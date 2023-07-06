@@ -1,0 +1,39 @@
+.modal-wrapper{
+    position: fixed;
+    left:0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgba(189,189,189,0.9);
+    
+}
+
+.modal-container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* max-width: 80rem; */
+    width: 300px;
+    padding: 2rem 3rem;
+    border-radius: 0.5rem;
+    /* background-color: #2f32e6; */
+     background: linear-gradient(90deg,#2c5364,#203a43,#0f2027);;
+}
+
+.modal-btn{
+    padding: 0.6rem 1.4rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #212121;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    padding-top: 0.5rem;
+    border-radius: 0.35rem;
+
+}
+.modal-btn:hover{
+    cursor: pointer;
+}
